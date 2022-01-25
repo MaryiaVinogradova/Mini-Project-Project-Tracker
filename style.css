@@ -1,3 +1,24 @@
+/* declare variables */
+
+:root {
+    --darkblue: hsl(212, 24%, 25%);
+    --seablue: #687b8c;
+    --lightseablue: #aab9bf;
+    --light: hsl(192, 15%, 94%);
+    --orange: hsl(7, 64%, 55%);
+    
+
+}
+  
+  .custom-jumbotron {
+    background-color: var(--seablue);
+    color: var(--darkblue);
+  }
+
+  .custom-card {
+
+  }
+
 /* notes for java
 
 // declare variables
@@ -18,7 +39,4 @@
 
 
 // create button that deletes the row
-// removes that whole row that has the same (index?) as the botton?
-
-
-*/
+// removes that whole row that has the same (index?) as the botton? */
